@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DotNetSlackClient")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Simple .net client to publish into Slack channels")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Leonardo Micheloni")]
 [assembly: AssemblyProduct("DotNetSlackClient")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

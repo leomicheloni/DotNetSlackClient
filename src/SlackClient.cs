@@ -82,13 +82,13 @@ namespace DotNetSlackClient
             var response = request.GetResponse();
         }
 
-        private string GenerateJSON(string message, string username, string icon_emoji)
+        private string GenerateJSON(string text, string username, string icon_emoji)
         {
             var result = string.Empty;
 
             if (!string.IsNullOrWhiteSpace(message))
             {
-                result = "\"message\":\"" + message +"\"";
+                result = "\"text\":\"" + message +"\"";
             }
 
             if (!string.IsNullOrWhiteSpace(username))

@@ -86,9 +86,9 @@ namespace DotNetSlackClient
         {
             var result = string.Empty;
 
-            if (!string.IsNullOrWhiteSpace(message))
+            if (!string.IsNullOrWhiteSpace(text))
             {
-                result = "\"text\":\"" + message +"\"";
+                result = "\"text\":\"" + text + "\"";
             }
 
             if (!string.IsNullOrWhiteSpace(username))

@@ -10,8 +10,8 @@
     <projectUrl>https://github.com/leomicheloni/DotNetSlackClient</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial version.</releaseNotes>
+    <releaseNotes>Latest version.</releaseNotes>
     <copyright>Copyright 2016</copyright>
-    <tags>Slack API</tags>
+    <tags>Slack API WebHook</tags>
   </metadata>
 </package>

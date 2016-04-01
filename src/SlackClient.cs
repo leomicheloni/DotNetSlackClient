@@ -33,6 +33,16 @@ namespace DotNetSlackClient
             }
         }
 
+        public SlackClient()
+        {
+
+        }
+
+        public SlackClient(string webhookurl)
+        {
+            this.WebHookUrl = webhookurl;
+        }
+
         /// <summary>
         /// Sends webhook message to Slack channel (if it is configured correctly)
         /// For simplicity it uses the default hook channel and name
